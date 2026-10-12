@@ -40,3 +40,9 @@ npx cypress open
 ```bash
 npx cypress run
 ```
+## Integração Contínua
+
+Este projeto utiliza GitHub Actions para executar automaticamente
+os testes Cypress em eventos de push e pull request.
+
+Os relatórios dos testes são gerados com Allure Report.
